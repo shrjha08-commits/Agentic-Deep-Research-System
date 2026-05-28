@@ -14,7 +14,7 @@ graph TD
     B -->|src/indexer.py| C[(Local Vector DB)]
     C -->|Semantic Retrieval| D[Deep Research Agent]
     
-    subgraph Reasoning Architectures (src/agent.py)
+    subgraph "Reasoning Architectures (src/agent.py)"
         D1[Naive RAG]
         D2[Plan-and-Solve Agent]
     end
