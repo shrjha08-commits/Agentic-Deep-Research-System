@@ -1,0 +1,14 @@
+# Local data and PDF files
+data/
+predictions/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
